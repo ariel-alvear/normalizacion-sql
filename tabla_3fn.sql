@@ -59,9 +59,9 @@ INSERT INTO readers_table(reader) VALUES ('marcos lopez');
 INSERT INTO readers_table(reader) VALUES ('maria juanita');
 
 --3 registros a tabla prestamos
-INSERT INTO loans_table(book_id, reader_id, return_date) VALUES (1, 1, 2020-10-08);
-INSERT INTO loans_table(book_id, reader_id, return_date) VALUES (2, 2, 2020-11-30);
-INSERT INTO loans_table(book_id, reader_id, return_date) VALUES (3, 1, 2020-12-30);
+INSERT INTO loans_table(book_id, reader_id, return_date) VALUES (1, 1, '2020-10-08');
+INSERT INTO loans_table(book_id, reader_id, return_date) VALUES (2, 2, '2020-11-30');
+INSERT INTO loans_table(book_id, reader_id, return_date) VALUES (3, 1, '2020-12-30');
 
 
 
